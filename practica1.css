@@ -1,0 +1,71 @@
+*{
+    background-color: azure;
+}
+
+.titulo{
+    color: rgb(5, 159, 159);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#fondo{
+    background-color: rgba(245, 245, 220, 0.455);
+}
+
+.caja{
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+    opacity: 0.5;
+    border: 10px solid;
+    border-radius: 10px 20px 30px 40px; /* Hace redondas las esquinas de una caja*/
+    box-shadow: 5px 5px lightgray;
+    padding: 10px;
+}
+
+.subtitulo{
+    padding-top: 15px;
+    color: darkslateblue;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subtitulo:hover{
+    color: cadetblue;
+    padding-top: 15px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagen{
+    height: 430px;
+    padding-left: 13px;
+    position: relative;
+}
+
+.contenido{
+    padding-top: 15px;
+    padding-left: 13px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: .4px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+input{
+    background-color: darkgrey;
+}
+
+a:visited{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: chartreuse;
+}
+
+a:active{
+    color:crimson
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="funcion.php" method="post" enctype="multipart/form-data">
+    <label>
+        Nombre: 
+        <input type="text" name="nom">
+    </label>
+    <br><br>
+    <label>
+        Edad: 
+        <input type="number" name="edad">
+    </label>
+    <br><br>
+    <label>
+        Fecha: 
+        <input type="date" name="date">
+        <br>
+        <br>
+        Foto: 
+        <input type="file" name="fot">
+    </label>
+    <br><br>
+    <label>
+        Estado Civil: 
+        <select name="se">
+            <option value="S">Soltero</option>
+            <option value="C">Casado</option>
+            <option value="D">Divorciado</option>
+        </select>
+    </label>
+    <br><br>
+    <label>
+        Documentacion Presentada: 
+        <input type="checkbox" name="doccion[]" value="INE"> INE
+        <input type="checkbox" name="doccion[]" value="CURP"> CURP
+        <input type="checkbox" name="doccion[]" value="ACTA"> ACTA
+    </label>
+    <br><br>
+    <label for="">Genero: </label>
+    <label for="">Masculino
+    <input type="radio" value="M" name="gen"></label>
+    <label for="">Femenino
+    <input type="radio" value="F" name="gen"></label>
+    <br><br>
+    <label>    
+        Observaciones: 
+        <br><br>
+    </label>
+        <textarea name="observaciones" cols="30" rows="10"></textarea>
+        <br><br>
+        <button type="submit">
+         Enviar
+        </button>
+</form>
+</body></html>

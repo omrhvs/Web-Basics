@@ -1,0 +1,40 @@
+.caja1{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+.caja2{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    left: 100px;
+    top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.caja3{
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+    left: 600px;
+    top: 100px;
+    position: absolute;
+}
+
+.caja4{
+    height: 200px;
+    width: 200px;
+    background-color: darkcyan;
+    z-index: 2;
+    position: relative;
+}
+
+.caja5{
+    height: 200px;
+    width: 200px;
+    background-color: darkolivegreen;
+    float: inline-end;
+}

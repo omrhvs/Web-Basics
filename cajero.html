@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="calculo.php" method="post" enctype="multipart/form-data">
+        <label>
+            Nombre del Cliente: 
+            <input type="text" name="nombre">
+        </label>
+        <br><br>
+
+        <label>
+            Saldo Actual:
+            <input type="text" name="saldo">
+        </label>
+        <br><br>
+
+        <label>
+            OPERACIONES
+        </label>
+        <br><br>
+        <label>
+            Abono
+            <input type="radio" value="Abono" name="op">
+        </label>
+        <label>
+            Cargo
+            <input type="radio" value="Cargo"  name="op">
+        </label>
+        <br><br>
+
+        <label>
+            Importe:
+            <input type="text" name="monto">
+        </label>
+        <br><br>
+
+        <button type="submit">
+            Hecho
+        </button>
+
+    </form>
+</body>
+</html>

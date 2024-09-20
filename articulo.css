@@ -1,0 +1,43 @@
+.caja{
+    height: 300px;
+    width: 800px;
+    background-color: rgb(255, 237, 241);
+    border: 3px solid;
+    border-radius: 50px 50px 50px 50px;
+    border-color: rgb(135, 14, 135);
+    position: relative;
+}
+
+.titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 139);
+    font-size: 30px;
+    text-align: center;
+}
+
+.cajaparrafos1{
+    width: 535px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+.img{
+    height: 140px;
+    border-radius: 10px 20px 30px 40px;
+    float: right;
+    position: relative;
+    padding-right: 30px;
+}
+
+.cajaparrafofinal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
